@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body { position: relative;
+		 margin: 0 auto;
+ 		 background-color: #ededed;
+ }
+
+
+#wrapper {
+	width: 1300px;
+	margin:0 40px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:blue;
+}
+
+/* header area */
+header { background-color: white;
+ border-bottom: 1px solid #e2e2e2;
+  position: fixed;
+   width: 100%;
+   padding-bottom: 10px;
+}
+header ul {
+	display:inline;
+}
+header ul li {
+	float:right;
+	display:inline;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+
+header ul li a {
+	display:inline;
+}
+
+
+
+
+
+#sign {
+	color:white;
+	background-color: #186fc1;
+	text-decoration: none;
+	padding:5px;
+	border-radius:2px;
+	margin-right: 10px;
+	border: 1px solid #186fc1;
+}
+ 
+
+ 
+ #upload {
+	color: gray;
+	text-decoration: none;
+	padding:5px;
+	border: 1px solid;
+	border-radius: 2px;
+}
+
+#upload a:hover {
+	color:gray;
+}
+
+#input {
+	position:absolute;
+	margin-top:10px;
+	width: 460px;
+}
+
+#search {
+	position:absolute;
+	margin-left: 463px;
+	margin-top: 10px;
+	border: 1px solid gray;
+	height: 19px;
+}
+/* main content area */
+#video-description {
+	font-family: arial;
+	font-size: 80%;
+}
+
+#show {
+	display:block;
+	margin-left: 380px;
+	color: gray;
+	
+}
+
+#more {
+	display:block;
+	color: gray;
+	margin-left: 380px;
+	
+}
+	
+
+	
+
+/* sidebar area */
+aside {
+	float:right;
+	margin-top: 70px;
+}
+#thumbs { 
+	float:right; 
+	min-width:380px; 
+ 	margin-top: 10px; 
+	font-size: 80%; 
+	background-color:#FFF; 
+}
+
+/* footer area */
+footer {
+	 border-top: 1px solid #e2e2e2;
+	 width:100%;
+	background-color: white;
+}
+
+footer ul li  {
+	display:inline;
+	border-top: 2px;
+	width: 100%;
+	margin-right: 5px;
+	margin-left: 40px;
+}
+.buttons {
+
+	color: gray;
+	text-decoration: none;
+	padding:15px;
+	
+	}
+
+
+.youtube {
+	margin-top: 12px;
+	position:absolute;
+}
+
+.button {
+	color: gray;
+	text-decoration: none;
+	padding:5px;
+	border: 1px solid;
+	border-radius: 2px;
+}
+
+.links{
+	text-decoration: none;
+	color:black;
+	font-size: 95%;
+	
+}
+
+.links2{
+	text-decoration: none;
+	color:gray;
+	font-size: 90%;
+	
+}
+
+
