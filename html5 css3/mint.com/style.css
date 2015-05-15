@@ -1,0 +1,211 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* 
+   ======================================== 
+   Clearfix 
+   ======================================== 
+ */ 
+ 
+ 
+ .group:before, 
+ .group:after { 
+   content: ""; 
+   display: table; 
+ } 
+ .group:after { 
+   clear: both; 
+ } 
+ .group { 
+   clear: both; 
+   *zoom: 1; 
+ } 
+
+body { 
+   background: #fff; 
+   color: #333; 
+   font: normal 12px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+
+
+/* header */
+
+
+header {
+	display:block;
+	margin: 0 auto; 
+   padding-top: 40px; 
+   position: relative; 
+   width: 690px; 
+
+}
+	
+
+
+
+#signup-login { 
+   bottom: 0px; 
+   display: block; 
+   position: absolute; 
+   right: 0px; 
+
+ } 
+ #signup-login li { 
+   display: inline-block; 
+   font-size: 15px; 
+   padding-right: 10px; 
+  margin-left: 5px; 
+
+}
+
+#signup-login li:first-child { 
+   font-weight: bold; 
+   border-right: 1px solid #ccc; 
+
+ } 
+
+ #signup-login li a {
+ 	text-decoration: none;
+ 	color:black;
+ }
+
+/* main form*/
+.main-container {
+	display: block;
+  background-color:white;
+  position: relative;
+  padding: 43px 50px 50px 50px;
+  min-height: 330px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px 0px; 
+   color: #262c26; 
+   padding: 43px 50px 50px 50px; 
+   width: 690px; 
+
+
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.left-section { 
+  display: inline-block; 
+   width: 350px 
+
+}
+
+.left-section input, 
+ .left-section select { 
+   border: 1px solid #ccc; 
+   box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px 0px inset; 
+   height: 28px; 
+   margin-bottom: 27px; 
+   padding: 2px; 
+   width: 264px; 
+ } 
+ .left-section input { 
+   border: 1px solid #ccc; 
+   border-radius: 5px; 
+ } 
+ .left-section select { 
+   font-size: 14px; 
+   
+   
+ } 
+ .left-section label { 
+   display: block; 
+   font-size: 14px; 
+   font-weight: bold; 
+   padding-bottom: 5px; 
+ } 
+
+#zip-code { 
+   width: 80px; 
+ } 
+ #tou { 
+   font-size: 13px; 
+   margin-bottom: 20px; 
+ } 
+ #tou-agreement { 
+   height: auto; 
+   margin: 0; 
+   padding: 0; 
+   width: auto; 
+ } 
+ #tou span { 
+   padding-left: 5px; 
+ } 
+ #tou a { 
+   color: #006ea4; 
+   font-size: 14px; 
+ } 
+
+#contact-form {
+	border-right: 1px solid lightgray;
+}
+
+#button {
+	color:white;
+	background-color: orange;
+}
+
+aside { background: #f5f5f5;
+	position:relative;
+  margin-left: 25px;
+  padding-bottom: 19px;
+  padding-right: 17px;
+  padding-top: 21px;
+  padding-left: 40px;
+  height: 140px;
+  width:140px;
+  float:right;
+  
+}
+
+aside h2 {
+	font-size: 18px;
+}
+aside li a {
+	text-decoration: underline;
+	color:gray;
+}
+ 
+
+/* footer */
+footer { 
+   margin: 0 auto; 
+   padding: 20px 0 25px 0; 
+   position: relative; 
+   text-align: center; 
+   width: 690px; 
+ } 
+ footer li { 
+   display: inline; 
+ } 
+ footer a { 
+   font-size: 11px; 
+   padding: 0 10px; 
+   text-decoration: none;
+   color:gray;
+ } 
+  
+ 
+footer p { 
+   color: #999; 
+   font-size: 11px; 
+   height: 34px; 
+   margin-top: 10px; 
+ } 
+
